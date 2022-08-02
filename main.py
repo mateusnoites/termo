@@ -1,8 +1,17 @@
 import os
 import discord
-from dotenv import load_dotenv
 
-load_dotenv()
+lista_palavras = open('palavras.txt', 'r')
+
+palavras = []
+
+for line in lista_palavras:
+    if line != "":
+        palavras.append(line.strip("\n"))
+
+
+print(palavras)
+
 TOKEN = ''
 
 client = discord.Client()
@@ -17,7 +26,7 @@ async def on_message(message):
         print('mensagem recebida')
 
     if isinstance(message.channel, discord.channel.DMChannel) and message.author != client.user:
-        if message.content.lower() == 
-        await message.channel.send('This is a DM')
+        if message.content.lower().startswith(""):
+            await message.channel.send("Olá, mundo")
 
 client.run(TOKEN)
