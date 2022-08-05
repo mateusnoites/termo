@@ -1,0 +1,3 @@
+sublinhada = posição errada
+riscada = não tem
+itálico = certo

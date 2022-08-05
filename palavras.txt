@@ -49,7 +49,6 @@ expor
 haver
 hábil
 tempo
-
 seara
 dengo
 então
@@ -200,7 +199,6 @@ burro
 olhar
 possa
 levar
-
 ameno
 reles
 tecer
@@ -251,7 +249,6 @@ leigo
 sesta
 calma
 revel
-
 deter
 labor
 vemos
